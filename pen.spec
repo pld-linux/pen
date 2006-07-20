@@ -1,4 +1,5 @@
-Summary:	Pound - load-balancer
+Summary:	Pen - load-balancer
+Summary(pl):	Pen - narzêdzie do rozk³adania obci±¿enia
 Name:		pen
 Version:	0.17.1
 Release:	0.1
@@ -10,11 +11,19 @@ URL:		http://siag.nu/pen/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is pen, a load balancer for "simple" tcp based protocols such as
-http or smtp. It allows several servers to appear as one to the
+This is pen, a load balancer for "simple" TCP based protocols such as
+HTTP or SMTP. It allows several servers to appear as one to the
 outside and automatically detects servers that are down and
 distributes clients among the available servers. This gives high
 availability and scalable performance.
+
+%description -l pl
+pen to narzêdzie do rozk³adania obci±¿enia (load balancer) dla
+protoko³ów opartych o TCP, takich jak HTTP czy SMTP. Pozwala na
+udostêpnienie kilku serwerów na zewn±trz tak, aby wygl±da³y na jeden
+oraz automatycznie wykrywa serwery wy³±czone i rozprowadza klientów po
+dostêpnych serwerach. Daje to wysok± dostêpno¶æ i skalowaln±
+wydajno¶æ.
 
 %prep
 %setup -q
