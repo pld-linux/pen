@@ -1,5 +1,5 @@
 Summary:	Pen - load-balancer
-Summary(pl.UTF-8):   Pen - narzędzie do rozkładania obciążenia
+Summary(pl.UTF-8):	Pen - narzędzie do rozkładania obciążenia
 Name:		pen
 Version:	0.17.1
 Release:	0.1
