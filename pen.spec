@@ -1,5 +1,5 @@
 Summary:	Pen - load-balancer
-Summary(pl):	Pen - narzêdzie do rozk³adania obci±¿enia
+Summary(pl.UTF-8):   Pen - narzÄ™dzie do rozkÅ‚adania obciÄ…Å¼enia
 Name:		pen
 Version:	0.17.1
 Release:	0.1
@@ -17,13 +17,13 @@ outside and automatically detects servers that are down and
 distributes clients among the available servers. This gives high
 availability and scalable performance.
 
-%description -l pl
-pen to narzêdzie do rozk³adania obci±¿enia (load balancer) dla
-protoko³ów opartych o TCP, takich jak HTTP czy SMTP. Pozwala na
-udostêpnienie kilku serwerów na zewn±trz tak, aby wygl±da³y na jeden
-oraz automatycznie wykrywa serwery wy³±czone i rozprowadza klientów po
-dostêpnych serwerach. Daje to wysok± dostêpno¶æ i skalowaln±
-wydajno¶æ.
+%description -l pl.UTF-8
+pen to narzÄ™dzie do rozkÅ‚adania obciÄ…Å¼enia (load balancer) dla
+protokoÅ‚Ã³w opartych o TCP, takich jak HTTP czy SMTP. Pozwala na
+udostÄ™pnienie kilku serwerÃ³w na zewnÄ…trz tak, aby wyglÄ…daÅ‚y na jeden
+oraz automatycznie wykrywa serwery wyÅ‚Ä…czone i rozprowadza klientÃ³w po
+dostÄ™pnych serwerach. Daje to wysokÄ… dostÄ™pnoÅ›Ä‡ i skalowalnÄ…
+wydajnoÅ›Ä‡.
 
 %prep
 %setup -q
