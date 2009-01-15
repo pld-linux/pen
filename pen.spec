@@ -1,12 +1,12 @@
 Summary:	Pen - load-balancer
 Summary(pl.UTF-8):	Pen - narzędzie do rozkładania obciążenia
 Name:		pen
-Version:	0.17.1
+Version:	0.18.0
 Release:	0.1
 License:	GPL
 Group:		Networking/Daemons
 Source0:	ftp://siag.nu/pub/pen/%{name}-%{version}.tar.gz
-# Source0-md5:	62548155d3bf42aea05b32227e132331
+# Source0-md5:	96f6d39e7e7cca11a647e795550f3829
 URL:		http://siag.nu/pen/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
